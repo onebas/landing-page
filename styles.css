@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Roboto, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header{
+    background-color: #1F2937;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary,
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links{
+    display: flex;
+    gap: 8px;
+}
+
+.text{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px;
+}
+
+.main{
+    max-width: 512px;
+    gap: 16px;
+}
+
+.placeholder{
+    padding: 64px;
+    background-color: grey;
+    align-self: center;
+    color: #FFF;
+}
+
+.cardsec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+}
+
+.cards{
+    display: flex;
+    gap: 64px;
+}
+
+.rounded{
+    height: 192px;
+    width: 192px;
+    border: 5px solid blue;
+    border-radius: 25px;
+}
+
+.container{
+    max-width: 192px;
+}
+
+.info{
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.box{
+    max-width: 800px;
+    text-align: left;
+}
+
+p{
+    max-width: 1024px;
+
+}
+
+.call{
+    display: flex;
+    background-color: #3882F6;
+    padding: 32px;
+    margin: 32px;
+    align-self: center;
+    gap: 64px;
+    border-radius: 12px;
+}
+
+button{
+    border: 8px solid #3882F6;
+    border-radius: 10px;
+    padding: 0 32px;
+    background-color: #3882F6;
+    color: #FFF;
+}
+
+.buttoncall{
+    border: 2px solid #FFF;
+}
+
+.footer{
+    text-align: center;
+}
+
+.randoinfo{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.saying{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    font-weight: 900;
+    text-align: right;
+}
+
+.group{
+    color: #FFF;
+}
